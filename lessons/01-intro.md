@@ -8,6 +8,7 @@
   - Name
   - background
   - Something interesting/funny/unique
+1. About this workshop
 
 ## Why should data scientists learn web dev?
 
@@ -17,5 +18,9 @@
 - Learn - always be learning
 
 ## Web Development 101
+
+blah
+
+## Homework
 
 blah
