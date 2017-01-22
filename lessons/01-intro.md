@@ -33,13 +33,16 @@ Slides (`npm run day1`):
 
 1. Install Python v[3.6](https://docs.python.org/3.6/whatsnew/3.6.html) - [download](https://www.python.org/downloads/)
 1. Create a project directory:
+
   ```sh
   $ mkdir web-dev-for-data-scientists
   $ cd web-dev-for-data-scientists
   $ python3 -m venv env
   $ source/env/bin/activate
   ```
+
 1. Install Flask v[0.12](https://pypi.python.org/pypi/Flask/0.12):
+
   ```sh
   $ pip install Flask==0.12
   ```
