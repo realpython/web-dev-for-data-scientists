@@ -44,7 +44,15 @@ Slides (`npm run day1`):
 1. Install Flask v[0.12](https://pypi.python.org/pypi/Flask/0.12):
 
   ```sh
-  $ pip install Flask==0.12
+  (env)$ pip install Flask==0.12
+  (env)$ pip freeze > requirements.txt
+  ```
+
+1. Deactivate/reactivate virtualenv:
+
+  ```sh
+  (env)$ deactivate
+  $ source/env/bin/activate
   ```
 
 ## Homework
