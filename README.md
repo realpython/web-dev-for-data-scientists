@@ -9,4 +9,8 @@ Material for a five, one-hour lessons, powered by [Real Python](https://realpyth
 
 ---
 
-<img src="./lessons/data/images/realpython_logo.png" style="max-width:400px;background:none;border:none;box-shadow:none;">
+Powered by...
+
+<img src="./lessons/data/images/realpython_logo.png" style="max-width:300px;background:none;border:none;box-shadow:none;">
+
+https://realpython.com
