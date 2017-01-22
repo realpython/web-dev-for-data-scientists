@@ -19,8 +19,14 @@
 
 ## Web Development 101
 
-blah
+1. Client, Server, Database
+1. Web Frameworks
+1. Model View Controller (MVC)
+
+## Environment Setup
+
+1. Python 3.6
+1. Virtualenv
+1. Pip
 
 ## Homework
-
-blah
