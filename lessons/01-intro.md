@@ -20,7 +20,7 @@ Slides (`npm run day1`):
 
 ### Modern Web Development
 
-What technologies (languages, frameworks, concepts) do you need to know a full-stack web developer?
+What technologies (languages, frameworks, concepts) do you need to know a to be a full-stack web developer?
 
 1. Client-side
 1. Server-side
