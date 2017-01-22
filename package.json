@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "day1": "node_modules/reveal-md/bin/cli.js slides/day1.md --theme solarized"
+  },
+  "author": "Michael Herman",
+  "license": "MIT",
+  "dependencies": {
+    "reveal-md": "0.0.32"
+  }
+}

@@ -1,4 +1,4 @@
-# Flask for Data Science Workshop
+# Web Development for Data Scientists
 
 Material for a five, one-hour lessons, powered by [Real Python](https://realpython.com). WIP
 
@@ -10,3 +10,12 @@ Material for a five, one-hour lessons, powered by [Real Python](https://realpyth
 ---
 
 <img src="./lessons/data/images/realpython_logo.png" style="max-width:200px;background:none;border:none;box-shadow:none;">
+
+## Slides
+
+Want to view the slides?
+
+```
+$ npm install
+$ npm run day1
+```

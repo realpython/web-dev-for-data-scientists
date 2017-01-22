@@ -2,12 +2,11 @@
 
 ## Welcome
 
+Slides (`npm run day1`):
+
 1. Hi!
 1. `whoami`
 1. Who are you?
-  - Name
-  - background
-  - Something interesting/funny/unique
 1. About this workshop
 
 ## Why should data scientists learn web dev?
@@ -15,7 +14,7 @@
 - Visualization - show off that data!
 - Gather - scraping, accessing (and parsing) web apis
 - Interaction - get people to interact with and add more data
-- Learn - always be learning
+- Learn - always be learning (ABCs!)
 
 ## Web Development 101
 
@@ -25,8 +24,21 @@
 
 ## Environment Setup
 
-1. Python 3.6
-1. Virtualenv
-1. Pip
+> **NOTE:** All commands are unix environment
+
+1. Install Python v[3.6](https://docs.python.org/3.6/whatsnew/3.6.html) - [download](https://www.python.org/downloads/)
+1. Create a project directory:
+  ```sh
+  $ mkdir web-dev-for-data-scientists
+  $ cd web-dev-for-data-scientists
+  $ python3 -m venv env
+  $ source/env/bin/activate
+  ```
+1. Install Flask v[0.12](https://pypi.python.org/pypi/Flask/0.12):
+  ```sh
+  $ pip install Flask==0.12
+  ```
 
 ## Homework
+
+TBD
