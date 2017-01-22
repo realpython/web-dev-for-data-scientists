@@ -1,5 +1,10 @@
 # Lesson 1: Intro
 
+TODO:
+
+1. update objectives on the outline
+1. web development 101
+
 ## Welcome
 
 Slides (`npm run day1`):
@@ -41,4 +46,5 @@ Slides (`npm run day1`):
 
 ## Homework
 
-TBD
+1. Complete the [Flask Quick Start](http://flask.pocoo.org/docs/0.12/quickstart/)
+1. Complete the [Flask Tutorial](http://flask.pocoo.org/docs/0.12/tutorial/)

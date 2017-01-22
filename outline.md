@@ -1,13 +1,13 @@
 # Outline
 
-v0.0.1
+v0.0.2
 
 ## Objectives
 
 By the end of this tutorial, you should be able to...
 
 1. Answer the question - *Why should data scientists learn web development?*
-1. foo
+1. Set up a Python 3.6 development environment
 
 ## Lessons
 
