@@ -88,7 +88,7 @@ The majority of modern web frameworks utilize this design pattern. Again, high-l
 
   ```sh
   (env)$ deactivate
-  $ source/env/bin/activate
+  $ source env/bin/activate
   ```
 
 ## Review
