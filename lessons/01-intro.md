@@ -65,9 +65,11 @@ The majority of modern web frameworks utilize this design pattern. Again, high-l
   ```sh
   $ mkdir web-dev-for-data-scientists
   $ cd web-dev-for-data-scientists
-  $ python3 -m venv env
+  $ python3.6 -m venv env
   $ source/env/bin/activate
   ```
+
+  > **NOTE:** If you're on a Python 3 version > 3.6, use `pyvenv-3.x env`
 
 1. Install Flask v[0.12](https://pypi.python.org/pypi/Flask/0.12):
 
