@@ -34,8 +34,14 @@ Developers got tired of writing the same boilerplate code over and over again, s
 
 What are some tasks common to the majority of web apps?
 
-1. foo
-1. bar
+1. Authentication (login, logout, registration)
+1. Templating
+1. RESTful API
+1. Session Management
+1. Email
+1. Database Access via an ORM
+1. Testing
+1. Admin Interface
 
 For the most part, you can split web frameworks between high and low-level. Turn the *Interlude: Web Frameworks, Compared* chapter in **Real Python Course 2** for more information.
 
