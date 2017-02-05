@@ -8,6 +8,8 @@ Slides: `npm run day2`
 
 ## Flask
 
+![](../slides/images/flask.png)
+
 ### What?
 
 Flask is a microframework written in Python.
