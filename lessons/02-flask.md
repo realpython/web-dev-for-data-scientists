@@ -91,13 +91,10 @@ Let's build a basic calculator together...
 
   ```json
   {
-    "status": "200",
-    "data": {
-      "operator": "add",
-      "num1": "9",
-      "num2": "4",
-      "solution": "27"
-    }
+    "operator": "add",
+    "num1": "9",
+    "num2": "4",
+    "solution": "27"
   }
   ```
 
