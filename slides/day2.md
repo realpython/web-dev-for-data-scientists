@@ -21,12 +21,20 @@ revealOptions:
 - Less talking, more hacking!
 - Homework Review
 - Flask:
-  - foo
-  - bar
+  - Quick Start
+  - Templating w/ Jinja
+  - Deployment
+  - SQL
 
 ---
 
-### Objectives
+## Objectives
 
-1. foo
-1. bar
+By the end of this lesson, you should be able to answer the following questions:
+
+1. What is Flask?
+1. Why are we using Flask?
+
+You should also be able to:
+
+1. Set up a Flask app.

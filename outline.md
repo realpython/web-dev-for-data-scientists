@@ -12,7 +12,7 @@ v0.0.4
 
 ## Objectives
 
-By the end of this lessons, you should be able to answer the following questions:
+By the end of these lessons, you should be able to answer the following questions:
 
 1. Why should data scientists learn web development?
 1. What do you need to know to be a full-stack web developer?
