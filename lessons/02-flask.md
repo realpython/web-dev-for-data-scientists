@@ -111,3 +111,4 @@ Foo
 ## Homework
 
 1. Complete the [Rendering Bokeh Plots in Flask](https://github.com/rpazyaquian/bokeh-flask-tutorial/wiki/Rendering-Bokeh-plots-in-Flask) tutorial, taking note of any questions you may have
+1. (Optional) Want to learn more SQL? Review *Interlude: Database Programming* in **Real Python Course 2**. 
