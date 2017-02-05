@@ -9,6 +9,21 @@ Slides (`npm run day1`):
 1. Who are you?
 1. About this workshop
 
+## Objectives
+
+By the end of this lessons, you should be able to answer the following questions:
+
+1. Why should data scientists learn web development?
+1. What do you need to know to be a full-stack web developer?
+1. What is a web framework?
+1. Why should you use a web framework?
+1. What's the MVC design pattern?
+
+You should also be able to:
+
+1. Set up a Python 3.6 development environment
+1. List and describe the server and client-side technologies associated with web development
+
 ## Why should data scientists learn web dev?
 
 - Visualization - show off that data!

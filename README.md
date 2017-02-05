@@ -1,6 +1,25 @@
 # Web Development for Data Scientists
 
-Material for a five, one-hour lessons, powered by [Real Python](https://realpython.com). WIP
+#### WIP
+
+Material for a 5-day workshop, powered by [Real Python](https://realpython.com):
+
+| Event    | Hours         |
+|----------|---------------|
+| Day 1    | 2.5 hours     |
+| Homework | ? to ? hours  |
+| Day 2    | 2.5 hours     |
+| Homework | ? to ? hours  |
+| Day 3    | 2.5 hours     |
+| Homework | ? to ? hours  |
+| Day 4    | 2.5 hours     |
+| Homework | ? to ? hours  |
+| Day 5    | 2.5 hours     |
+
+Total Hours:
+
+- ? to ? hours
+- In-person: 12.5 hours
 
 ## Requirements
 
