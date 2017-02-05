@@ -78,7 +78,7 @@ The majority of modern web frameworks utilize this design pattern. Again, high-l
 
 ## Environment Setup
 
-> **NOTE:** All commands are unix environment
+> **NOTE:** All commands are for a unix environment
 
 1. Install Python v[3.6](https://docs.python.org/3.6/whatsnew/3.6.html) - [download](https://www.python.org/downloads/)
 1. Create a project directory:
