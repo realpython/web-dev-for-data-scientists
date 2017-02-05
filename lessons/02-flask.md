@@ -8,7 +8,7 @@ Slides: `npm run day2`
 
 ## Flask
 
-![](../slides/images/flask.png)
+<img src="../slides/images/flask.png" width="40%">
 
 ### What?
 
