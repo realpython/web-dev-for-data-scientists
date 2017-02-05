@@ -1,8 +1,10 @@
 # Lesson 2: Flask Quick Start
 
+In this second session, we'll dive into Flask, a powerful Python web framework...
+
 ## Welcome
 
-Slides (`npm run day2`):
+Slides: `npm run day2`
 
 ## What is Flask?
 

@@ -34,7 +34,7 @@ Total Hours:
 
 Want to view the slides?
 
-```
+```sh
 $ npm install
-$ npm run day1
+$ npm run day1 
 ```
