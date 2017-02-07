@@ -1,13 +1,13 @@
 # Outline
 
-v0.0.4
+v0.0.5
 
 ## Lessons
 
 1. [Intro](lessons/01-intro.md)
 1. [Flask Quick Start](lessons/02-flask.md)
-1. [Data Visualization](lessons/03-retrieval.md)
-1. [Information Retrieval](lessons/04-visualization.md)
+1. [Data Visualization](lessons/03-visualization.md)
+1. [Information Retrieval](lessons/04-retrieval.md)
 1. [User Interaction](lessons/05-interaction.md)
 
 ## Objectives

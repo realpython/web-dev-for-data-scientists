@@ -22,19 +22,12 @@ revealOptions:
 - Homework Review
 - Flask:
   - Quick Start
+  - Calculator Exercise
   - Templating w/ Jinja
-  - Deployment
   - SQL
 
 ---
 
-## Objectives
+## Homework Review!
 
-By the end of this lesson, you should be able to answer the following questions:
-
-1. What is Flask?
-1. Why are we using Flask?
-
-You should also be able to:
-
-1. Set up a Flask app.
+:)
