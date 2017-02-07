@@ -158,6 +158,7 @@ Your turn!
 
 - Add a conditional to check if the solution exists. If it exists, then display the above text. If it doesn't exist, display the text - "Nothing to calculate at this time."
   - Hint:
+
     ```html
     {% if true %}
       <p>foo</p>
@@ -165,6 +166,7 @@ Your turn!
       <p>bar</p>
     {% endif %}
     ```
+    
 - Set up [template inheritance](http://jinja.pocoo.org/docs/2.9/templates/#template-inheritance) to create a base and child template.
 
 > **NOTE**: Review [Primer on Jinja Templating](https://realpython.com/blog/python/primer-on-jinja-templating/) for more on Jina and Templating.
