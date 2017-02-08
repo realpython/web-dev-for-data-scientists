@@ -32,13 +32,18 @@ Flask is a microframework written in Python.
 
 ### Why?
 
-Why Flask over other Python web frameworks like Django?
+Why are we using Flask over other Python web frameworks like Django?
 
 1. Flask is considered more Pythonic than Django since, in most cases, it's more explicit. It's also much lighter than Django so you can quickly get an app up and running.
+1. Less magic.
+
+Flask is a solid framework:
+
 1. It scales well.
 1. Strong community.
 1. You can learn A LOT from just reading the source code since it's so well documented.
 1. It's perfect for microservices and RESTful APIs.
+1. It's thr right tool for *some* jobs.
 
 ## Quick Start
 
@@ -166,7 +171,7 @@ Your turn!
       <p>bar</p>
     {% endif %}
     ```
-    
+
 - Set up [template inheritance](http://jinja.pocoo.org/docs/2.9/templates/#template-inheritance) to create a base and child template.
 
 > **NOTE**: Review [Primer on Jinja Templating](https://realpython.com/blog/python/primer-on-jinja-templating/) for more on Jina and Templating.
