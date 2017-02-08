@@ -43,7 +43,7 @@ Flask is a solid framework:
 1. Strong community.
 1. You can learn A LOT from just reading the source code since it's so well documented.
 1. It's perfect for microservices and RESTful APIs.
-1. It's thr right tool for *some* jobs.
+1. It's the right tool for *some* jobs.
 
 ## Quick Start
 
