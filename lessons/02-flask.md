@@ -107,11 +107,8 @@ Let's build a basic calculator together...
 
 1. Create a new project.
 1. Before you write any code, make sure everything is wired up correctly and get a sanity check. Why is this important?
-1. Set up the following four routes:
-  - `/calc/add/:num1/:num2`
-  - `/calc/sub/:num1/:num2`
-  - `/calc/mult/:num1/:num2`
-  - `/calc/div/:num1/:num2`
+1. Set up the one route:
+  - `/calc/:operator/:num1/:num2`
 1. Respond with JSON:
 
   ```json
