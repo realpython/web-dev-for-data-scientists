@@ -203,22 +203,42 @@ with sqlite3.connect('calc.db') as connection:
 Add a new route handler (`/calc`) that displays all calculations. Set up the base structure:
 
 ```python
-I FORGOT HOW TO CODE!
+@app.route('/calc')
+def calc():
+    return 'sanity check!'
 ```
 
 Get the data out of the database:
 
 ```python
-db = connect_db()
-cur = db.execute('select * from calculations')
-posts = []
-for row in cur.fetchall():
-    print(row)
+@app.route('/calc')
+def calc():
+    with sqlite3.connect('calc.db') as connection:
+        # create cursor
+        c = connection.cursor()
+        # exectute SQL statement
+        c.execute("""SELECT * FROM calculations""")
+        rows = c.fetchall()
+        print(rows)
 ```
 
 What kind of data structure can we use to store the data to easily send it to a template to render? Update the code.
 
-Instead of a template, just send it back as JSON:
+```python
+@app.route('/calc')
+def calc():
+    with sqlite3.connect('calc.db') as connection:
+        # create cursor
+        c = connection.cursor()
+        # exectute SQL statement
+        c.execute("""SELECT * FROM calculations""")
+        rows = c.fetchall()
+        print(rows)
+        # pass data to the view
+        return render_template('calc.html', rows=rows)
+```
+
+Instead of a template, why not try to just send it back as JSON:
 
 ```json
 [
@@ -251,10 +271,7 @@ Instead of a template, just send it back as JSON:
 
 Once done, your app should have the following routes:
 
-- `/calc/add/:num1/:num2`
-- `/calc/sub/:num1/:num2`
-- `/calc/mult/:num1/:num2`
-- `/calc/div/:num1/:num2`
+- `/calc/:operator/:num1/:num2`
 - `/calc/`
 
 ## Homework
