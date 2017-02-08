@@ -147,10 +147,10 @@ Update your route handlers to render a template rather than JSON:
 
 ```python
 data = { 'num1': '9', 'num2': '3', 'operator': 'add', 'solution': '12' }
-return render_template('index.html', data)
+return render_template('index.html', data=data)
 ```
 
-You can access variables in your template like so: `{{num1}}`. Update your template to display:
+You can access variables in your template like so: `{{data.num1}}`. Update your template to display:
 
 ```
 You entered 9 and 3. You chose to add. The solution is 12.
