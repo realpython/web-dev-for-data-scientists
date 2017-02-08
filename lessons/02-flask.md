@@ -276,7 +276,9 @@ Once done, your app should have the following routes:
 
 ## Homework
 
-1. Complete the [Rendering Bokeh Plots in Flask](https://github.com/rpazyaquian/bokeh-flask-tutorial/wiki/Rendering-Bokeh-plots-in-Flask) tutorial, taking note of any questions you may have
 1. Review the Flask lesson from the beginning. See where you get stuck. You should see things a bit differently this time around. For example, if you were stuck on the Python syntax before, it's always good to review after you have a better grasp on the syntax so that you take in the deeper concepts.
+1. Complete [Python: Visualization with Bokeh](https://www.blog.pythonlibrary.org/2016/07/27/python-visualization-with-bokeh/)
+1. Complete the [Bokeh Quickstart](http://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html#userguide-quickstart)
+1. Complete the [Flask Bokeh Basics](https://github.com/realpython/flask-bokeh-example/blob/master/tutorial.md) tutorial
 1. (Optional) Want to learn HTML and CSS? Go through an [Introduction to HTML and CSS](https://github.com/mjhea0/thinkful-html).
 1. (Optional) Want to learn more SQL? Review *Interlude: Database Programming* in **Real Python Course 2**.
