@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {% if title %}
+      <title>{{title}}</title>
+    {% else %}
+      <title>Flask Calculator</title>
+    {% endif %}
+  </head>
+  <body>
+    {% if title %}
+      <h1>{{title}}</h1>
+    {% else %}
+      <h1>Flask Calculator</h1>
+    {% endif %}
+    <br><br>
+    {% if rows %}
+      <ul>
+      {% for row in rows %}
+        <li>You entered {{row[0]}} and {{row[1]}}. You chose to {{row[2]}}. The solution is {{row[3]}}.</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+      <h1>So, sad... :(</h1>
+    {% endif %}
+  </body>
+</html>

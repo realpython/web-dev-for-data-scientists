@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {% if title %}
+      <title>{{title}}</title>
+    {% else %}
+      <title>Flask Calculator</title>
+    {% endif %}
+  </head>
+  <body>
+    {% if title %}
+      <h1>{{title}}</h1>
+    {% else %}
+      <h1>Flask Calculator</h1>
+    {% endif %}
+    <br><br>
+    {% if data %}
+      <p>You entered {{data.num1}} and {{data.num2}}. You chose to {{data.operator}}. The solution is {{data.solution}}.</p>
+    {% else %}
+      <h1>So, sad... :(</h1>
+    {% endif %}
+  </body>
+</html>
