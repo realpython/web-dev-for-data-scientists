@@ -7,9 +7,9 @@ Material for a 5-day workshop, powered by [Real Python](https://realpython.com):
 | Event    | Hours         |
 |----------|---------------|
 | Day 1    | 2.5 hours     |
-| Homework | ? to ? hours  |
+| Homework | 3 to 5 hours  |
 | Day 2    | 2.5 hours     |
-| Homework | ? to ? hours  |
+| Homework | 3 to 5 hours  |
 | Day 3    | 2.5 hours     |
 | Homework | ? to ? hours  |
 | Day 4    | 2.5 hours     |
@@ -36,5 +36,5 @@ Want to view the slides?
 
 ```sh
 $ npm install
-$ npm run day1 
+$ npm run day1
 ```

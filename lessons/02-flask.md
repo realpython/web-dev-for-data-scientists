@@ -126,6 +126,8 @@ The view is handled/managed with server-side templates. Like the name suggests, 
 
 We'll be using [Jinja2](http://jinja.pocoo.org/docs/2.9/), which Flask already depends on, for our server-side templating engine. With it, you can add Python-like variables and logic (conditionals, loops) to your templates.
 
+> **NOTE**: Want to learn more about templating? Check out [Template Engines by Full Stack Python](https://www.fullstackpython.com/template-engines.html).
+
 ### Getting Started
 
 Add a "templates" folder to your calculator project, and then add an *index.html* file to that folder:
