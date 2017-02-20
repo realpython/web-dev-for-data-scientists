@@ -6,11 +6,13 @@ With the Flask basics behind us, this sessions focuses on how to visualize data 
 
 By the end of this lesson, you should be able to answer the following questions:
 
-1. foo
+1. What is Bokeh?
+1. Why would you want to use Bokeh over a different charting library?
 
 You should also be able to:
 
-1. bar
+1. Write a Python script to add data to SQLite
+1. Embed a Bokeh chart into a Flask app
 
 ## Welcome
 
@@ -39,6 +41,8 @@ Let's get a Flask app up and running!
 
 ## Adding Bokeh
 
+1. What's Bokeh?
+1. Why use Bokeh? Unlike matplotlib it's build for the web. Plus, it's all Python so you don't have to mess with JavaScript. http://pbpython.com/visualization-tools-1.html
 1. Install
 1. Sanity check
 1. Tie in data from Database

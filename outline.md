@@ -1,6 +1,6 @@
 # Outline
 
-v0.0.5
+v0.0.6
 
 ## Lessons
 
@@ -22,6 +22,8 @@ By the end of these lessons, you should be able to answer the following question
 1. What is Flask?
 1. Why are we using Flask?
 1. What is server-side templating?
+1. What is Bokeh?
+1. Why would you want to use Bokeh over a different charting library?
 
 You should also be able to:
 
@@ -32,3 +34,5 @@ You should also be able to:
   - Handles requests via route handlers.
   - Responds with both JSON and HTML via Jinja templates.
   - Persists data with SQLite.
+1. Write a Python script to add data to SQLite
+1. Embed a Bokeh chart into a Flask app
