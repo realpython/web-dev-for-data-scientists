@@ -36,28 +36,38 @@ def data():
 
 @app.route('/bokeh')
 def bokeh():
-
     x = []
     y = []
-
+    inside_x = []
+    inside_y = []
+    outside_x = []
+    outside_y = []
     with sqlite3.connect('bokeh.db') as connection:
         c = connection.cursor()
-        c.execute("""SELECT * FROM temperature""")
+        c.execute("""SELECT * FROM greenhouse""")
         rows = c.fetchall()
         for value in rows:
-            date = datetime.datetime.utcfromtimestamp(value[0]).strftime(
-                '%Y-%m-%dT%H:%M:%SZ')
-            x.append(np.datetime64(date))
-            y.append(value[1])
+            date = datetime.datetime.utcfromtimestamp(
+                value[0]).strftime('%Y-%m-%dT%H:%M:%SZ')
+            if str(value[2]) == 'inside':
+                inside_x.append(np.datetime64(date))
+                inside_y.append(value[1])
+            if str(value[2]) == 'outside':
+                outside_x.append(np.datetime64(date))
+                outside_y.append(value[1])
+        x.append(inside_x)
+        x.append(outside_x)
+        y.append(inside_y)
+        y.append(outside_y)
 
     p = figure(
-        x_axis_label='x',
-        y_axis_label='y',
+        x_axis_label='time',
+        y_axis_label='temp',
         x_axis_type="datetime",
         width=1000,
         height=600
     )
-    p.line(x, y, legend="Temp", line_width=2)
+    p.multi_line(x, y, color=['firebrick', 'navy'], line_width=2)
 
     # grab the static resources
     js_resources = INLINE.render_js()
