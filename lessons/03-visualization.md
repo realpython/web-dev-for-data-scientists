@@ -34,15 +34,30 @@ Let's get a Flask app up and running!
 
 ## Data Wrangling
 
-1. Normalize?
-1. Create database schema
-1. Add to SQLite
-1. Display to end user
+### Normalize Data
+
+1. Do we need to normalize the data?
+1. If yes, when and how should we normalize it?
+
+### Database Schema
+
+1. foo
+
+### Add Data to SQLite
+
+1. foo
 
 ## Adding Bokeh
 
+### What and Why?
+
 1. What's Bokeh?
-1. Why use Bokeh? Unlike matplotlib it's build for the web. Plus, it's all Python so you don't have to mess with JavaScript. http://pbpython.com/visualization-tools-1.html
+1. Why use Bokeh? Unlike matplotlib it's build for the web. Plus, it's all Python so you don't have to mess with JavaScript.
+
+> **NOTE:** For more on Python data visualization tools, check out [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html).
+
+### Quick Start
+
 1. Install
 1. Sanity check
 1. Tie in data from Database
