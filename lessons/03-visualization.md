@@ -58,9 +58,59 @@ Let's get a Flask app up and running!
 
 ### Quick Start
 
-1. Install
-1. Sanity check
-1. Tie in data from Database
+#### Install:
+
+```sh
+$ pip install bokeh==0.12.4
+```
+
+#### Sanity check
+
+Create a new route - `/sample`, and add the sample code for a [line chart](http://bokeh.pydata.org/en/latest/docs/user_guide/plotting.html#single-lines)
+
+Add the imports:
+
+  ```python
+  from bokeh.embed import components
+  from bokeh.plotting import figure
+  from bokeh.resources import INLINE
+  ```
+
+Update the route:
+
+```python
+@app.route('/sample')
+def sample():
+
+    # create the chart
+    p = figure(plot_width=400, plot_height=400)
+
+    # add a line renderer
+    p.line([1, 2, 3, 4, 5], [6, 7, 2, 4, 5], line_width=2)
+
+    # grab the static resources
+    js_resources = INLINE.render_js()
+    css_resources = INLINE.render_css()
+
+    # generate javascript and the actual chart via components()
+    script, div = components(p)
+
+    # render template
+    return render_template(
+        'index.html',
+        plot_script=script,
+        plot_div=div,
+        js_resources=js_resources,
+        css_resources=css_resources,
+    )
+```
+
+### Add DB Data
+
+1. Open database connection
+1. Generate SQL query
+1. Format data
+1. Update Bokeh code
 
 ## Homework
 

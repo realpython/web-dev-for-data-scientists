@@ -19,6 +19,32 @@ def index():
     return 'Hello, world!'
 
 
+@app.route('/sample')
+def sample():
+
+    # create the chart
+    p = figure(plot_width=400, plot_height=400)
+
+    # add a line renderer
+    p.line([1, 2, 3, 4, 5], [6, 7, 2, 4, 5], line_width=2)
+
+    # grab the static resources
+    js_resources = INLINE.render_js()
+    css_resources = INLINE.render_css()
+
+    # generate javascript and the actual chart via components()
+    script, div = components(p)
+
+    # render template
+    return render_template(
+        'index.html',
+        plot_script=script,
+        plot_div=div,
+        js_resources=js_resources,
+        css_resources=css_resources,
+    )
+
+
 @app.route('/data')
 def data():
     all_data = []
