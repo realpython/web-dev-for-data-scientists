@@ -105,6 +105,24 @@ def sample():
     )
 ```
 
+Add you template:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    {{ css_resources | safe }}
+    {{ js_resources | safe }}
+    {{ plot_script | safe }}
+  </head>
+  <body>
+    {{ plot_div | safe }}
+  </body>
+</html>
+```
+
 ### Add DB Data
 
 1. Open database connection

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    {{ css_resources | safe }}
+    {{ js_resources | safe }}
+    {{ plot_script | safe }}
+  </head>
+  <body>
+    {{ plot_div | safe }}
+  </body>
+</html>
