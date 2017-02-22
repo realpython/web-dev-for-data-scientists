@@ -70,11 +70,11 @@ Create a new route - `/sample`, and add the sample code for a [line chart](http:
 
 Add the imports:
 
-  ```python
-  from bokeh.embed import components
-  from bokeh.plotting import figure
-  from bokeh.resources import INLINE
-  ```
+```python
+from bokeh.embed import components
+from bokeh.plotting import figure
+from bokeh.resources import INLINE
+```
 
 Update the route:
 
