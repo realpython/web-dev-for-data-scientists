@@ -24,13 +24,7 @@ Let's get a Flask app up and running!
 
 ### Setup
 
-1. foo
-1. bar
-
-### SQLite
-
-1. foo
-1. bar
+Set up the application on your own. Make sure to add SQLite to it as well. Flip back to the last lesson for help.
 
 ## Data Wrangling
 
@@ -41,11 +35,11 @@ Let's get a Flask app up and running!
 
 ### Database Schema
 
-1. foo
+1. Code alone!
 
 ### Add Data to SQLite
 
-1. foo
+1. Code along!
 
 ## Adding Bokeh
 
@@ -144,7 +138,7 @@ Add you template:
 1. Practice making an external call to the [OMDb API](http://www.omdbapi.com/) within Flask. Start a new project. You can find sample code below. Just make sure to install the [requests](http://docs.python-requests.org/en/master/) library.
 
   ```python
-  from flask import Flask
+  from flask import Flask, jsonify
   import requests
 
   BASE = 'http://www.omdbapi.com/?t={0}&y=&plot=short&r=json'
@@ -153,12 +147,12 @@ Add you template:
 
   @app.route('/')
   def index():
-        movie_name = 'star wars'
-        url = BASE.format(movie_name)
-        r = requests.get(url)
-        json_response = r.json()
-        print(json_response)
-        return json_response
+      movie_name = 'star wars'
+      url = BASE.format(movie_name)
+      r = requests.get(url)
+      json_response = r.json()
+      print(json_response)
+      return jsonify(json_response)
 
 
   if __name__ == '__main__':
