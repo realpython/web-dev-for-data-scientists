@@ -36,5 +36,4 @@ You should also be able to:
   - Persists data with SQLite.
 1. Write a Python script to add data to SQLite
 1. Embed a Bokeh chart into a Flask app
-1. Make an AJAX request for the server to grab data from an external API
-1. Deploy a Flask app to Heroku
+1. Make an AJAX request from the server to grab data from an external API

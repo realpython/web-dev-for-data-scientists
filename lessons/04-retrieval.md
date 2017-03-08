@@ -6,8 +6,7 @@ In this session, you will learn how to obtain data from web APIs as well as pars
 
 By the end of this lesson, you should be able to:
 
-1. Make an AJAX request for the server to grab data from an external API
-1. Deploy a Flask app to Heroku
+1. Make an AJAX request from the server to grab data from an external API
 
 ## Welcome
 
@@ -41,19 +40,9 @@ We'll work through the pseudocode together. You'll code the app either alone (or
 1. Get Data
 1. Add scheduler
 
-### Part 2 - Heroku
-
-1. Sign up (if necessary)
-1. Install the CLI
-1. Create a git repo, commit
-1. Push to heroku
-1. Procfile setup
-1. shell script
-
-### Part 3 - Client
-
-1. Add template
+> Example code: https://github.com/realpython/flask-bitcoin-example
 
 ## Homework
 
-1. foo
+1. Compare your code from class with the [flask-bitcoin-example](https://github.com/realpython/flask-bitcoin-example) code. Make any necessary changes to your code.
+1. Add the remaining bitcoin
