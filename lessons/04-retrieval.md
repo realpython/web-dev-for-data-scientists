@@ -22,7 +22,7 @@ The focus over the next two sessions will be to build the following app...
 Build an app that will find the best exchange rates for Bitcoin (USD -> Bitcoin)  from the following cryptocurrency exchanges:
 
 1. [Bitstamp](https://www.bitstamp.net/)
-1. [YoBit](https://yobit.net/)
+1. [Kraken](https://www.kraken.com/)
 1. [Bittrex](https://bittrex.com/)
 
 It should have the following pages:
