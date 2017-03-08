@@ -2,7 +2,8 @@
   "scripts": {
     "day1": "node_modules/reveal-md/bin/cli.js slides/day1.md --theme solarized",
     "day2": "node_modules/reveal-md/bin/cli.js slides/day2.md --theme solarized",
-    "day3": "node_modules/reveal-md/bin/cli.js slides/day3.md --theme solarized"
+    "day3": "node_modules/reveal-md/bin/cli.js slides/day3.md --theme solarized",
+    "day4": "node_modules/reveal-md/bin/cli.js slides/day4.md --theme solarized"
   },
   "author": "Michael Herman",
   "license": "MIT",

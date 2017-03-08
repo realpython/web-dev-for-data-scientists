@@ -4,15 +4,10 @@ In this session, you will learn how to obtain data from web APIs as well as pars
 
 ## Objectives
 
-By the end of this lesson, you should be able to answer the following questions:
+By the end of this lesson, you should be able to:
 
-1. foo
-1. bar
-
-You should also be able to:
-
-1. foo
-1. bar
+1. Make an AJAX request for the server to grab data from an external API
+1. Deploy a Flask app to Heroku
 
 ## Welcome
 
@@ -26,7 +21,7 @@ The focus over the next two sessions will be to build the following app...
 
 Build an app that will find the best exchange rates for Bitcoin (USD -> Bitcoin)  from the following cryptocurrency exchanges:
 
-1. [BTC-E](https://btc-e.com/)
+1. [Bitstamp](https://www.bitstamp.net/)
 1. [YoBit](https://yobit.net/)
 1. [Bittrex](https://bittrex.com/)
 
