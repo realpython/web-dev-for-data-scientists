@@ -18,11 +18,5 @@ revealOptions:
 
 ## Day 4
 
-- Homework Review
-- Project
-
----
-
-## Homework Review!
-
-:)
+- How'd the homework go?
+- [Project](https://github.com/realpython/web-dev-for-data-scientists/blob/master/lessons/04-retrieval.md)!!!
