@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cryptocurrency Exchange Rates</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>body { padding-top: 70px; }</style>
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ plot_script|indent(4)|safe }}
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Cryptocurrency Exchange Rates</a>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <h2>Current</h2>
+            <hr>
+            {% for rate in rates %}
+              {% if rate.lowest %}
+                <div class="col-md-2" style="color:green;">
+                  <h3>{{ rate.currency }}</h3>
+                  <p class="lead">{{ '${:,.2f}'.format(rate.price) }}</p>
+                </div>
+              {% else %}
+                <div class="col-md-2">
+                  <h3>{{ rate.currency }}</h3>
+                  <p class="lead">{{ '${:,.2f}'.format(rate.price) }}</p>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <br>
+          <div class="row">
+            <h2>Historical</h2>
+            <hr>
+            {{ plot_div|indent(4)|safe }}
+            <br>
+            <p>Total Data Points - {{ points }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

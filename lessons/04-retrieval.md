@@ -43,8 +43,12 @@ We'll work through the pseudocode together. You'll code the app either alone (or
 
 ### Part 2 - Heroku
 
-1. foo
-1. bar
+1. Sign up (if necessary)
+1. Install the CLI
+1. Create a git repo, commit
+1. Push to heroku
+1. Procfile setup
+1. shell script
 
 ### Part 3 - Client
 
