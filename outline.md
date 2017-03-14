@@ -1,6 +1,6 @@
 # Outline
 
-v0.0.6
+v0.0.7
 
 ## Lessons
 
@@ -8,6 +8,7 @@ v0.0.6
 1. [Flask Quick Start](lessons/02-flask.md)
 1. [Data Visualization](lessons/03-visualization.md)
 1. [Information Retrieval](lessons/04-retrieval.md)
+  - BONUS [SQLAlchemy and Postgres](lessons/bonus/sqlalchemy.md)
 1. [User Interaction](lessons/05-interaction.md)
 
 ## Objectives
@@ -37,3 +38,4 @@ You should also be able to:
 1. Write a Python script to add data to SQLite
 1. Embed a Bokeh chart into a Flask app
 1. Make an AJAX request from the server to grab data from an external API
+1. Add Flask-SQLAlchemy to your app to interact with the database

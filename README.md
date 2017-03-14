@@ -11,15 +11,19 @@ Material for a 5-day workshop, powered by [Real Python](https://realpython.com):
 | Day 2    | 2.5 hours     |
 | Homework | 3 to 5 hours  |
 | Day 3    | 2.5 hours     |
-| Homework | ? to ? hours  |
+| Homework | 3 to 5 hours  |
 | Day 4    | 2.5 hours     |
-| Homework | ? to ? hours  |
+| Homework | 3 to 5 hours  |
 | Day 5    | 2.5 hours     |
 
 Total Hours:
 
-- ? to ? hours
+- 24 to 33 hours
 - In-person: 12.5 hours
+
+## Outline
+
+[Link](outline.md)
 
 ## Requirements
 
@@ -37,4 +41,8 @@ Want to view the slides?
 ```sh
 $ npm install
 $ npm run day1
+$ npm run day2
+$ npm run day3
+$ npm run day4
+$ npm run day5
 ```
