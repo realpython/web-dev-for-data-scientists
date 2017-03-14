@@ -31,10 +31,10 @@ You should also be able to:
 1. Set up a Python 3.6 development environment
 1. List and describe the server and client-side technologies associated with web development
 1. Set up a Flask app that-
-  - Uses dynamic URLs.
-  - Handles requests via route handlers.
-  - Responds with both JSON and HTML via Jinja templates.
-  - Persists data with SQLite.
+    - Uses dynamic URLs.
+    - Handles requests via route handlers.
+    - Responds with both JSON and HTML via Jinja templates.
+    - Persists data with SQLite.
 1. Write a Python script to add data to SQLite
 1. Embed a Bokeh chart into a Flask app
 1. Make an AJAX request from the server to grab data from an external API
