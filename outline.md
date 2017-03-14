@@ -8,7 +8,7 @@ v0.0.7
 1. [Flask Quick Start](lessons/02-flask.md)
 1. [Data Visualization](lessons/03-visualization.md)
 1. [Information Retrieval](lessons/04-retrieval.md)
-  - BONUS [SQLAlchemy and Postgres](lessons/bonus/sqlalchemy.md)
+    - BONUS [SQLAlchemy and Postgres](lessons/bonus/sqlalchemy.md)
 1. [User Interaction](lessons/05-interaction.md)
 
 ## Objectives
