@@ -8,7 +8,8 @@ v0.0.7
 1. [Flask Quick Start](lessons/02-flask.md)
 1. [Data Visualization](lessons/03-visualization.md)
 1. [Information Retrieval](lessons/04-retrieval.md)
-    - BONUS [SQLAlchemy](lessons/bonus/sqlalchemy.md)
+    - [SQLAlchemy](lessons/bonus/sqlalchemy.md)
+    - [Heroku](lessons/bonus/heroku.md)
 1. [User Interaction](lessons/05-interaction.md)
 
 ## Objectives
@@ -38,4 +39,6 @@ You should also be able to:
 1. Write a Python script to add data to SQLite
 1. Embed a Bokeh chart into a Flask app
 1. Make an AJAX request from the server to grab data from an external API
+1. Use a scheduler to continuously pull data from external sources
 1. Add Flask-SQLAlchemy to your app to interact with the database
+1. Deploy an app to Heroku

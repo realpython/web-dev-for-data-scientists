@@ -16,7 +16,7 @@ Clone the app:
 $ git clone https://github.com/realpython/flask-bitcoin-example --branch v1 --single-branch -b master
 ```
 
-Create and activate a virtual env and then install the dependencies:
+Create and activate a virtualenv and then install the dependencies:
 
 ```sh
 $ python3.6 -m venv env
@@ -36,19 +36,6 @@ Right now your project structure looks like this:
 └── scheduler.py
 ```
 
-Refactor:
-
-```sh
-├── Procfile
-├── requirements.txt
-└── src
-    ├── app.py
-    ├── data.py
-    ├── db.py
-    ├── run.sh
-    └── scheduler.py
-```
-
 ## Adding SQLAlchemy
 
 Install:
@@ -57,7 +44,7 @@ Install:
 $ pip install Flask-SQLAlchemy==2.2
 ```
 
-Update *src/app.py* to configure Flask-SQLAlchemy:
+Update *app.py* to configure Flask-SQLAlchemy:
 
 ```python
 import os
@@ -98,12 +85,12 @@ def data():
 
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    app.run(port=8080, debug=True)
 ```
 
 We still need to update the route handlers. We'll come back to that once the database is set up.
 
-Add a *models.py* file to "src":
+Add a *models.py*:
 
 ```python
 from datetime import datetime
@@ -130,7 +117,7 @@ class Currency(db.Model):
 
 This sets up a `Model()` for the database. For more info, check out the [docs](http://flask-sqlalchemy.pocoo.org/2.1/quickstart/).
 
-Next, add a *create_db.py* file to "src". This file is used to create the database:
+Next, add a *create_db.py* file. This file is used to create the database:
 
 ```python
 from app import db
@@ -144,11 +131,11 @@ db.create_all()
 db.session.commit()
 ```
 
-Run `python src/create_db.py` to create the database. Make sure it looks right in the [SQLite Database Browser](http://sqlitebrowser.org/).
+Run `python create_db.py` to create the database. Make sure it looks right in the [SQLite Database Browser](http://sqlitebrowser.org/).
 
 ## Adding Data
 
-Next, update the `add_data()` function in *src/data.py*:
+Next, update the `add_data()` function in *data.py*:
 
 ```python
 def add_data(bitDict):
@@ -164,11 +151,17 @@ from app import db
 from models import Currency
 ```
 
-Then run `python src/data.py` to add data to the database. Again, ensure that the database looks right in the SQLite Database Browser.
+Install requests:
+
+```sh
+$ pip install requests
+```
+
+Then run `python data.py` to add data to the database. Again, ensure that the database looks right in the SQLite Database Browser.
 
 ## Refactoring Routes
 
-Update `data()` in *src/app.py*:
+Update `data()` in *app.py*:
 
 ```python
 @app.route('/data')
@@ -185,7 +178,7 @@ def data():
     return jsonify(all_data)
 ```
 
-Run the app via `python src/app.py` and navigate to [http://localhost:8080/data](http://localhost:8080/data) and you should see something similar to:
+Run the app via `python app.py` and navigate to [http://localhost:8080/data](http://localhost:8080/data) and you should see something similar to:
 
 ```json
 [

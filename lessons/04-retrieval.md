@@ -7,6 +7,7 @@ In this session, you will learn how to obtain data from web APIs as well as pars
 By the end of this lesson, you should be able to:
 
 1. Make an AJAX request from the server to grab data from an external API
+1. Use a scheduler to continuously pull data from external sources
 
 ## Welcome
 
@@ -35,6 +36,8 @@ We'll work through the pseudocode together. You'll code the app either alone (or
 
 ### Part 1 - Server
 
+Code Along!
+
 1. Project Setup
 1. Add SQLite
 1. Get Data
@@ -45,5 +48,6 @@ We'll work through the pseudocode together. You'll code the app either alone (or
 ## Homework
 
 1. Compare your code from class with the [flask-bitcoin-example](https://github.com/realpython/flask-bitcoin-example) code. Make any necessary changes to your code.
-1. Add the remaining bitcoin exchanges
 1. Refactor to use [SQLAlchemy](bonus/sqlalchemy.md)
+1. Deploy to [Heroku](bonus/heroku.md)
+1. Add the remaining bitcoin exchanges
