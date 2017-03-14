@@ -46,4 +46,4 @@ We'll work through the pseudocode together. You'll code the app either alone (or
 
 1. Compare your code from class with the [flask-bitcoin-example](https://github.com/realpython/flask-bitcoin-example) code. Make any necessary changes to your code.
 1. Add the remaining bitcoin exchanges
-1. Refactor to use [SQLAlchemy](lessons/bonus/sqlalchemy.md)
+1. Refactor to use [SQLAlchemy](bonus/sqlalchemy.md)
