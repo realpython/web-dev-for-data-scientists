@@ -1,6 +1,6 @@
 # Outline
 
-v0.0.7
+v0.0.8
 
 ## Lessons
 
@@ -10,7 +10,7 @@ v0.0.7
 1. [Information Retrieval](lessons/04-retrieval.md)
     - [SQLAlchemy](lessons/bonus/sqlalchemy.md)
     - [Heroku](lessons/bonus/heroku.md)
-1. [User Interaction](lessons/05-interaction.md)
+1. [Information Retrieval (continued)](lessons/05-retrieval_redux.md)
 
 ## Objectives
 
