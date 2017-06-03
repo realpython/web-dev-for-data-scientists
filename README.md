@@ -1,7 +1,5 @@
 # Web Development for Data Scientists
 
-#### WIP
-
 Material for a 5-day workshop, powered by [Real Python](https://realpython.com):
 
 | Event    | Hours         |
@@ -46,3 +44,8 @@ $ npm run day3
 $ npm run day4
 $ npm run day5
 ```
+
+## Videos
+
+- Day 3 - https://www.youtube.com/watch?v=Bi0vwNR56Jc
+- Day 4 - https://www.youtube.com/watch?v=ERuaHYNZm34
