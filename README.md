@@ -49,3 +49,4 @@ $ npm run day5
 
 - Day 3 - https://www.youtube.com/watch?v=Bi0vwNR56Jc
 - Day 4 - https://www.youtube.com/watch?v=ERuaHYNZm34
+- Day 5 - https://youtu.be/lOGOUfchQds
